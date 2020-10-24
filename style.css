@@ -1,6 +1,7 @@
 body{
     background-color: #d8d8d8;
 }
+
 .nav-gog{
     background-color:black;
 }
@@ -50,7 +51,7 @@ body{
     margin-right: 5px;
     cursor: pointer;
   
-    ;}
+    }
    
     .carousel-control-next-icon{
     background-color: rgb(85, 77, 77);
@@ -64,6 +65,11 @@ body{
 
     
 }
+
+.card-body{
+        padding:10px 10px 0 10px;
+        height:120px;
+    }
 .btn-card{
     position: absolute;
     top:7px;
@@ -75,16 +81,16 @@ body{
     border: 0;
 }
 .badge-percent{
-    padding:10px;
     background-color:#78387B;;
     border-radius: 3px;
     font-size:15px;
-    margin-right: 0!important;
-    position: absolute;
-    bottom:-35px; 
-    
-    right:70px;
+    padding: 7px;
 }
+.old{
+    text-decoration: line-through;
+    padding-bottom: 0;
+}
+    
 .newgoggalaxy{
 
     color: #86328a;
@@ -95,8 +101,10 @@ body{
 .jumbotron{
     background-image: url(album/children\ of\ morta.jpg);
     background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
     color:white;
-    height: 30vh;
+    height: 15vh;
     
     position: relative;
 }
@@ -117,6 +125,7 @@ body{
 .navbartwo{
     background-color:#d8d8d8 ;
 }
+
 .card-img-top{
     width: 100%;
     height:400px
@@ -221,7 +230,7 @@ body{
     content:"";
     position: absolute;
     background:rgb(255,175,2);
-background: linear-gradient(0deg, rgba(255, 175, 2, 0.575) 0%, rgba(251, 152, 31, 0.637) 5%, rgba(255, 128, 1, 0.526) 70%);
+    background: linear-gradient(0deg, rgba(255, 175, 2, 0.575) 0%, rgba(251, 152, 31, 0.637) 5%, rgba(255, 128, 1, 0.526) 70%);
     top:0;
     bottom: 0;
     right: 0;
