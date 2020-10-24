@@ -1,0 +1,161 @@
+body{
+    background-color: #d8d8d8;
+}
+.nav-gog{
+    background-color:black;
+}
+.navbar-icone i{
+
+    color:rgb(185, 173, 173);
+}
+#sign-in-navbarDropdown{
+    color: #A06A8F;
+}
+.navbar-nav{
+
+    padding-right: 10px
+
+}
+.carousel-indicators{
+    margin-bottom: -30px;
+}
+.carousel-caption h3{
+    position: absolute;
+    left:0;
+    bottom: 30px;
+    font-weight: 600;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.603);
+    font-size:23px;
+}
+.carousel-caption .btn{
+    position: absolute;
+    right: 0px;
+    bottom: 20px;
+    background: linear-gradient(-180deg,#c1ec51,#80b02a);
+    box-shadow: 0 0 28px 8px rgba(0,0,0,.19), 0 1px 5px 0 rgba(0,0,0,.5);
+    height: 32px;
+    border-radius: 3px;
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.carousel-control-prev-icon{
+    background-color: rgb(85, 77, 77);
+    padding:12px;
+    border-radius: 100%;
+    border: 3px solid rgb(153, 144, 144);
+    font-weight: lighter;
+    margin-right: 5px;
+    cursor: pointer;
+  
+    ;}
+   
+    .carousel-control-next-icon{
+    background-color: rgb(85, 77, 77);
+    padding:12px;
+    border-radius: 100%;
+    border: 3px solid rgb(153, 144, 144);
+    font-weight: lighter;
+    margin-left: 5px;
+    cursor: pointer;
+    
+
+    
+}
+.btn-card{
+    position: absolute;
+    top:7px;
+    left:9px;
+  
+    background: linear-gradient(-180deg,#c1ec51,#80b02a);
+    color: rgb(252, 247, 247);
+    border-radius: 3px;
+    border: 0;
+}
+.badge-percent{
+    bottom: 30px;
+    border-radius: 2px;
+    margin: 0px 8px 0px 0px;
+    padding:  6px 8px;
+    background-color: #78387B;
+    display: flex;
+
+
+
+}
+.newgoggalaxy{
+
+    color: #86328a;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+.jumbotron{
+    background-image: url(album/children\ of\ morta.jpg);
+    background-size: 100% 100%;
+    color:white;
+    height: 30vh;
+    
+    position: relative;
+}
+.checkmore .btn{
+    border: 2px solid #fff;
+    background: transparent;
+    color: white;
+    font-size:20px;
+    position: absolute;
+    bottom:0px;
+    right:0px;
+
+}
+.checkmore .btn:hover{
+    background-color:#80b02a ;
+}
+
+.navbartwo{
+    background-color:#d8d8d8 ;
+}
+.card-img-top{
+    width: 100%;
+    height:400px
+
+ 
+}
+.color-card-first::after{
+    content:"";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.percentage{
+    position: absolute;
+    top:40%;
+    display: flex;
+    align-content: center;
+    color:yellow;
+   
+    font-weight: 500;
+    font-size:50px;
+    left: 6rem;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.603);
+}
+.up{
+    position: absolute;
+   
+    top: 240px;
+    color:yellow;
+   
+    font-weight: 500;
+    font-size:20px;
+    left: 6rem;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.603);
+}
+.carousel-2 {
+    margin-bottom: -60px;
+}
